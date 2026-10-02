@@ -1,0 +1,35 @@
+{
+  "n_questions": 40,
+  "n_chunks": 61,
+  "overall": {
+    "bm25": {
+      "hit@1": 0.425,
+      "hit@4": 0.825,
+      "rr": 0.588
+    },
+    "dense": {
+      "hit@1": 0.575,
+      "hit@4": 0.9,
+      "rr": 0.71
+    },
+    "hybrid": {
+      "hit@1": 0.55,
+      "hit@4": 0.95,
+      "rr": 0.723
+    }
+  },
+  "hit@4_by_style": {
+    "bm25": {
+      "keyword": 0.923,
+      "paraphrase": 0.643
+    },
+    "dense": {
+      "keyword": 0.923,
+      "paraphrase": 0.857
+    },
+    "hybrid": {
+      "keyword": 1.0,
+      "paraphrase": 0.857
+    }
+  }
+}

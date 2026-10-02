@@ -1,0 +1,41 @@
+question,source,evidence,style
+How much of the food cooked in the hostel mess was thrown away?,plate_to_bin.md,23.5% of all food cooked,keyword
+What did the weekend breakfast opt-in pilot achieve?,plate_to_bin.md,140 kg less leftover,keyword
+How was the opt-in pilot measured?,plate_to_bin.md,difference-in-differences,keyword
+How much money would the recommendations save every year?,plate_to_bin.md,12.8 lakh a year,keyword
+Which dishes run out most often?,plate_to_bin.md,"Chicken Curry, Veg Biryani",keyword
+How strongly do student ratings predict plate waste?,plate_to_bin.md,r = −0.87,keyword
+What problems did the raw kitchen log have?,plate_to_bin.md,26 spellings of 22 dishes,keyword
+How many rows does the student feedback table have?,plate_to_bin.md,"7,002",keyword
+Is the mess data real?,plate_to_bin.md,simulated,keyword
+What is the difference between leftover and plate waste?,plate_to_bin.md,food cooked but never served,keyword
+How accurate is the final Kharcha AI model?,kharcha_ai.md,95.3%,keyword
+How well does Kharcha AI do when the payment note is empty?,kharcha_ai.md,90.0%,keyword
+What confidence threshold does Kharcha AI use before auto-tagging?,kharcha_ai.md,60% confident,keyword
+Why are character n-grams used for the UPI note?,kharcha_ai.md,Survives typos and Hinglish,keyword
+How many subscriptions did the detector find?,kharcha_ai.md,found all 30 recurring payments,keyword
+What share of spending goes to rent?,kharcha_ai.md,Rent eats 34%,keyword
+What is the month-end crunch?,kharcha_ai.md,drops 25% after the 24th,keyword
+How many test mistakes were actually wrong labels?,kharcha_ai.md,20 were actually wrong labels,keyword
+What did version 1 of the spam classifier get wrong?,spam_sms_classifier.md,caught only 68% of spam,keyword
+Which model won the spam model comparison?,spam_sms_classifier.md,Linear SVM on word + character n-grams,keyword
+What threshold did the final spam model use?,spam_sms_classifier.md,threshold (0.81),keyword
+Why were duplicate messages removed before splitting?,spam_sms_classifier.md,graded on messages it has already seen,keyword
+Which dataset was the spam model trained on?,spam_sms_classifier.md,SMS Spam Collection,keyword
+What kind of roles is Aryan looking for?,aryan_profile.md,Looking for,keyword
+Which Java projects has Aryan built?,aryan_profile.md,Spring Boot,keyword
+Where is Aryan based?,aryan_profile.md,"Amritsar, India",keyword
+Can the filter catch fake KYC update messages?,spam_sms_classifier.md,never seen modern Indian scams,paraphrase
+Does the food mess ever run short of food?,plate_to_bin.md,ran out in 1 meal out of 7,paraphrase
+When do students skip the morning meal?,plate_to_bin.md,only ~30% turn up on Saturday and Sunday mornings,paraphrase
+Is late night ordering more expensive?,kharcha_ai.md,late-night order averages ₹205,paraphrase
+How often do people leave the payment description blank?,kharcha_ai.md,1 in 6 payments has no note,paraphrase
+What happens to festival season shopping?,kharcha_ai.md,Diwali effect,paraphrase
+Why can a model that always predicts the majority class look good?,spam_sms_classifier.md,already 87% accurate,paraphrase
+What happens when the kitchen faces exam weeks?,plate_to_bin.md,during exams students stay in,paraphrase
+How does the app decide that a payment needs human review?,kharcha_ai.md,confidence < 60%,paraphrase
+Why might the model not work on today's messages?,spam_sms_classifier.md,data drift,paraphrase
+What principles guide how Aryan builds projects?,aryan_profile.md,Beat a simple baseline,paraphrase
+How expensive are tiny everyday payments overall?,kharcha_ai.md,only 3.7% of the money,paraphrase
+Which unpopular dishes waste the most on plates?,plate_to_bin.md,"Tinda Masala, Lauki Chana Dal, Upma",paraphrase
+How is missing plate waste filled in?,plate_to_bin.md,that dish's median,paraphrase
